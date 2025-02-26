@@ -472,8 +472,8 @@ export async function openApplication(parameters) {
 /**
  * @param {String} [path='']
  * @returns {Promise<void>} resolve when path will be closed
- * @see EN {@link https://training.bitrix24.com/rest_help/js_library/additional/openApplication.php}
- * @see RU {@link https://dev.1c-bitrix.ru/rest_help/js_library/additional/openApplication.php}
+ * @see EN {@link https://training.bitrix24.com/rest_help/js_library/additional/openPath.php}
+ * @see RU {@link https://apidocs.bitrix24.ru/api-reference/bx24-js-sdk/additional-functions/bx24-open-path.html}
  */
 export async function openPath(path) {
   await init()
